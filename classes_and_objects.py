@@ -32,3 +32,17 @@ student1.display_name()
 student2 = student()
 student2.set_name("john")
 student2.display_name()
+
+#how to create classes using inheritance
+class person:
+    person_age=0
+    person_name= ""
+    person_residence=""
+    def __init__(self,name,age,residence):
+        self.person_name = name
+        self.person_ageperson_age = age
+        self.person_residence =residence
+
+    def print_person(self):
+        print("name:", self.person_name,"age:", self.person_ageperson_age,"residence:",self.person_residence)
+#inheriting from
