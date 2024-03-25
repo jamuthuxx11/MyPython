@@ -25,3 +25,5 @@ dog1.speak()
 
 cat1=Cat()
 cat1.speak()
+dog1.speak()
+dog1.speak()
